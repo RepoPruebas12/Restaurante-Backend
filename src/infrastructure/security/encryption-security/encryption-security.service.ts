@@ -4,8 +4,8 @@ import { IEncryptionSecurity } from 'src/domain/interfaces/security/encryption.s
 
 @Injectable()
 export class EncryptionSecurityService implements IEncryptionSecurity {
-    async encrypt(password: string, salt?: number): Promise<string> {
-        return await bcrypt.hash(password, 10)
+    async encrypt(password: string, salt: number = 10): Promise<string> {
+        return await bcrypt.hash(password, salt)
     }
 
     async compare(password: string, hash: string): Promise<boolean> {
