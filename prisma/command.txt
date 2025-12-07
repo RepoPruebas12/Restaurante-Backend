@@ -1,0 +1,5 @@
+> RESET
+npx prisma migrate reset
+
+> MIGRATION  (init -> Se cambia para no poner el mismo nombre de la migracion)
+npx prisma migrate dev --name init  
