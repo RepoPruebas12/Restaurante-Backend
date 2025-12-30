@@ -35,7 +35,7 @@ export class RolesController {
             return res.status(HttpStatus.OK).json({
                 "exito": true,
                 "mensajeError": '',
-                "_habilidades": roles
+                "_roles": roles
             })
 
         } catch (err) {

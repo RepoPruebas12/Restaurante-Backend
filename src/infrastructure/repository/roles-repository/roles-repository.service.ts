@@ -22,6 +22,7 @@ export class RolesRepositoryService implements IReporitoryRoles {
             throw new BadRequestException(err)
         }
     }
+    
     Roles_GetRol(idrol: number): Promise<RolesResponseDto | null> {
         throw new Error('Method not implemented.');
     }
