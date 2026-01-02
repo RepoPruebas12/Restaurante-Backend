@@ -22,13 +22,18 @@
   "dependencies": {
     "@nestjs/common": "^11.1.9",
     "@nestjs/config": "^4.0.2",
+<<<<<<< HEAD
     "@nestjs/core": "^11.1.9",
+=======
+    "@nestjs/core": "^11.0.1",
+>>>>>>> 6694363893e79f8fa32ed91b15cc439dd4f6588f
     "@nestjs/jwt": "^11.0.2",
     "@nestjs/passport": "^11.0.5",
     "@nestjs/platform-express": "^11.1.9",
     "@nestjs/swagger": "^11.2.3",
     "@nestjs/typeorm": "^11.0.0",
-    "@prisma/client": "^7.0.1",
+    "@prisma/client": "^6.8.0",
+    "@supabase/supabase-js": "^2.89.0",
     "bcrypt": "^6.0.0",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.3",
@@ -57,7 +62,7 @@
     "globals": "^16.0.0",
     "jest": "^30.0.0",
     "prettier": "^3.4.2",
-    "prisma": "^7.0.1",
+    "prisma": "^6.8.0",
     "source-map-support": "^0.5.21",
     "supertest": "^7.0.0",
     "ts-jest": "^29.2.5",
