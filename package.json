@@ -22,11 +22,7 @@
   "dependencies": {
     "@nestjs/common": "^11.1.9",
     "@nestjs/config": "^4.0.2",
-<<<<<<< HEAD
     "@nestjs/core": "^11.1.9",
-=======
-    "@nestjs/core": "^11.0.1",
->>>>>>> 6694363893e79f8fa32ed91b15cc439dd4f6588f
     "@nestjs/jwt": "^11.0.2",
     "@nestjs/passport": "^11.0.5",
     "@nestjs/platform-express": "^11.1.9",
